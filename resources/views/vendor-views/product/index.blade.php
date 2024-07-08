@@ -139,7 +139,7 @@
                                 </label>
                                 <div id="image-viewer-section" class="text-center pt-2 pb-3 text-left">
                                     <img class="img--100" id="viewer"
-                                            src="{{asset('/admin/img/100x100/2.png')}}" alt="banner image"/>
+                                            src="{{asset('assets/admin/img/100x100/2.png')}}" alt="banner image"/>
                                 </div>
                                 <div class="custom-file">
                                     <input type="file" name="image" id="customFileEg1" class="custom-file-input"

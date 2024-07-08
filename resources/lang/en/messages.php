@@ -4917,4 +4917,5 @@
   'If enabled, stores can actively engage with the customers by responding to the reviews left for their orders.' => 'If enabled, stores can actively engage with the customers by responding to the reviews left for their orders.',
   'Discount amount can\'t be greater than 100%' => 'Discount amount can t be greater than 100%',
   'default_unit_is_required' => 'Default unit is required',
+  'employee_added_successfully' => 'Employee added successfully',
 );
