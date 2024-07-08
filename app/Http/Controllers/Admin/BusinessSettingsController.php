@@ -739,11 +739,13 @@ class BusinessSettingsController extends Controller
         $desiredName = 'payment_setup';
         $payment_url = '';
 
-        foreach ($routes as $routeArray) {
-            foreach ($routeArray as $route) {
-                if ($route['name'] === $desiredName) {
-                    $payment_url = $route['url'];
-                    break 2;
+        if (is_array($routes) && count($routes) > 0) {
+            foreach ($routes as $routeArray) {
+                foreach ($routeArray as $route) {
+                    if (isset($route['name']) && $route['name'] === $desiredName) {
+                        $payment_url = $route['url'];
+                        break 2;
+                    }
                 }
             }
         }
