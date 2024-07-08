@@ -34,7 +34,7 @@
                             <h5 class="text-capitalize m-0 text--primary pl-2">
                                 {{translate('Send Mail on Campaign Request ?')}}
                         <span class="form-label-secondary text--primary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('If_a_Store_requests_to_join_a_campaign,_they_will_receive_an_automated_mail_for_successful_registration.') }}">
-                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                 </span>
                             </h5>
                             <label class="toggle-switch toggle-switch-sm">

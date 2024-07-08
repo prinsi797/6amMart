@@ -33,7 +33,7 @@
                             <h5 class="text-capitalize m-0 text--primary pl-2">
                                 {{translate('Receive_Mail_On_‘New_Deliveryman_Registration’?')}}
                         <span class="form-label-secondary text--primary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('If_Deliveryman_registers_from_the_customer_App_or_Website_or_Deliveryman_App,_Admin_receive_an_automated_email.') }}">
-                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                 </span>
                             </h5>
                             <label class="toggle-switch toggle-switch-sm">

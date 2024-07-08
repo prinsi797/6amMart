@@ -33,7 +33,7 @@
                             <h5 class="text-capitalize m-0 text--primary pl-2">
                                 {{translate('Receive_Mail_On_‘New_Customer_Registration’?')}}
                         <span class="form-label-secondary text--primary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('If_a_user_registers_or_sign_up_from_the_Customer_App_or_Website,_they_will_receive_an_automated_confirmation.') }}">
-                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                 </span>
                             </h5>
                             <label class="toggle-switch toggle-switch-sm">

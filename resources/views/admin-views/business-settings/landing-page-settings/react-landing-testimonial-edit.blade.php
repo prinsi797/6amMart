@@ -50,7 +50,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <label for="review" class="form-label">{{translate('messages.review')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_140_characters') }}">
-                                            <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                            <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                         </span></label>
                                         <textarea id="review" name="review"  maxlength="140" placeholder="{{translate('Very Good Company')}}" class="form-control h-92px">{{ $review->review }}</textarea>
                                     </div>
@@ -68,9 +68,9 @@
                                                 <img  src="{{ \App\CentralLogics\Helpers::get_image_helper(
                                                     $review,'reviewer_image',
                                                     asset('storage/reviewer_image').'/'.$review->reviewer_image ?? '',
-                                                    asset('//admin/img/aspect-1.png'),
+                                                    asset('/assets/admin/img/aspect-1.png'),
                                                     'reviewer_image/'
-                                                ) }}" data-onerror-image="{{asset("//admin/img/aspect-1.png")}}" class="img__aspect-1 min-w-187px max-w-187px onerror-image" alt="">
+                                                ) }}" data-onerror-image="{{asset("/assets/admin/img/aspect-1.png")}}" class="img__aspect-1 min-w-187px max-w-187px onerror-image" alt="">
                                             </div>
                                             <input type="file"  name="reviewer_image" hidden="">
                                             @if (isset($review->reviewer_image))

@@ -33,7 +33,7 @@
                             <h5 class="text-capitalize m-0 text--primary pl-2">
                                 {{translate('Receive_Login_Notification_via_Mail?')}}
                         <span class="form-label-secondary text--primary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('If_a_user_login_from_their_respective_system,_the_Admin_gets_notified_via_email.') }}">
-                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                 </span>
                             </h5>
                             <label class="toggle-switch toggle-switch-sm">

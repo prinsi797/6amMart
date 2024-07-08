@@ -33,7 +33,7 @@
                             <h5 class="text-capitalize m-0 text--primary pl-2">
                                 {{translate('Send_Mail_on_‘Campaign_Join_Approval’?')}}
                         <span class="form-label-secondary text--primary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('If_a_Store_requests_to_join_a_Campaign_and_Admin_approves_their_joining_request,_they_get_an_automated_Approval_email_from_the_system.') }}">
-                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                 </span>
                             </h5>
                             <label class="toggle-switch toggle-switch-sm">

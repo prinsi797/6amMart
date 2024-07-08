@@ -131,8 +131,8 @@
                                 </label>
                                 <div class="text-center py-3 my-auto">
                                     <img class="initial--4 onerror-image" id="viewer"
-                                    src="{{\App\CentralLogics\Helpers::get_image_helper($campaign,'image', asset('storage/campaign/').'/'.$campaign->image, asset('/admin/img/900x400/img1.jpg'), 'campaign/') }}"
-                                         data-onerror-image="{{ asset('/admin/img/900x400/img1.jpg') }}" alt="campaign image"/>
+                                    src="{{\App\CentralLogics\Helpers::get_image_helper($campaign,'image', asset('storage/campaign/').'/'.$campaign->image, asset('assets/admin/img/900x400/img1.jpg'), 'campaign/') }}"
+                                         data-onerror-image="{{ asset('assets/admin/img/900x400/img1.jpg') }}" alt="campaign image"/>
                                 </div>
                                 <div class="custom-file">
                                     <input type="file" name="image" id="customFileEg1" class="custom-file-input"

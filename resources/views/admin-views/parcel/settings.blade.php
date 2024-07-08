@@ -102,7 +102,7 @@
 
                         <div class="col-md-10 lang_form1 default-form1">
                             <label class="form-label">{{translate('Instruction')}} ({{ translate('Default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_short_description_within_191_characters') }}">
-                                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                                 </span></label>
                             <input type="text" class="form-control h--45px" maxlength="191" name="instruction[]"
                                    placeholder="{{ translate('Ex:_parcel_contains_document') }}">
@@ -113,7 +113,7 @@
                             @foreach(json_decode($language) as $lang)
                                 <div class="col-md-10 d-none lang_form1" id="{{$lang}}-form1">
                                     <label class="form-label">{{translate('Instruction')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_short_description_within_191_characters') }}">
-                                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                                 </span></label>
                                     <input type="text" class="form-control h--45px" maxlength="191" name="instruction[]"
                                            placeholder="{{ translate('Ex:_parcel_contains_document') }}">

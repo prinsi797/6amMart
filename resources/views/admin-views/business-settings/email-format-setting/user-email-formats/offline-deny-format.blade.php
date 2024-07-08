@@ -33,7 +33,7 @@
                             <h5 class="text-capitalize m-0 text--primary pl-2">
                                 {{translate('Send_Mail_on_Offline_Payment_Deny’?')}}
                         <span class="form-label-secondary text--primary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('If_Admin_rejects_an_offline_payment,_the_customer_will_get_an_automatic_disapproval_mail_from_the_system.') }}">
-                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                 </span>
                             </h5>
                             <label class="toggle-switch toggle-switch-sm">

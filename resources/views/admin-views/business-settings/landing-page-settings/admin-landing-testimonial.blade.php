@@ -61,7 +61,7 @@
                                         class="form-label-secondary" data-toggle="tooltip"
                                         data-placement="right"
                                         data-original-title="{{ translate('Write_the_title_within_40_characters') }}">
-                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                             alt="">
                                     </span></label>
                                 <input id="testimonial_title" type="text" maxlength="40" name="testimonial_title[]" class="form-control" value="{{$testimonial_title?->getRawOriginal('value')}}" placeholder="{{translate('messages.title_here...')}}">
@@ -87,7 +87,7 @@
                                                 class="form-label-secondary" data-toggle="tooltip"
                                                 data-placement="right"
                                                 data-original-title="{{ translate('Write_the_title_within_40_characters') }}">
-                                                <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                     alt="">
                                             </span></label>
                                         <input id="testimonial_title{{$lang}}" type="text" maxlength="40" name="testimonial_title[]" class="form-control" value="{{ $testimonial_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.title_here...')}}">
@@ -102,7 +102,7 @@
                                             class="form-label-secondary" data-toggle="tooltip"
                                             data-placement="right"
                                             data-original-title="{{ translate('Write_the_title_within_40_characters') }}">
-                                            <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                            <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                 alt="">
                                         </span></label>
                                     <input type="text" id="testimonial_title" maxlength="40" name="testimonial_title[]" class="form-control" placeholder="{{translate('messages.title_here...')}}">
@@ -141,7 +141,7 @@
                                             class="form-label-secondary" data-toggle="tooltip"
                                             data-placement="right"
                                             data-original-title="{{ translate('Write_the_title_within_250_characters') }}">
-                                            <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                            <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                 alt="">
                                         </span></label>
                                         <textarea id="review" name="review" maxlength="250" placeholder="{{translate('Very Good Company')}}" class="form-control h92px"></textarea>
@@ -156,8 +156,8 @@
                                         </label>
                                         <label class="upload-img-3 m-0 d-block">
                                             <div class="img">
-                                                <img src="{{asset("//admin/img/aspect-1.png")}}"
-                                                data-onerror-image="{{asset("//admin/img/aspect-1.png")}}" class="img__aspect-1 min-w-187px max-w-187px onerror-image" alt="">
+                                                <img src="{{asset("/assets/admin/img/aspect-1.png")}}"
+                                                data-onerror-image="{{asset("/assets/admin/img/aspect-1.png")}}" class="img__aspect-1 min-w-187px max-w-187px onerror-image" alt="">
                                             </div>
                                             <input type="file"  name="reviewer_image" hidden="">
                                         </label>

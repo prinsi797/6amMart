@@ -65,7 +65,7 @@
                                         class="form-label-secondary" data-toggle="tooltip"
                                         data-placement="right"
                                         data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                             alt="">
                                     </span></label>
                                 <input id="contact_us_title" type="text" maxlength="20" name="contact_us_title[]" value="{{ $contact_us_title?->getRawOriginal('value') }}" class="form-control" placeholder="{{translate('Ex_:_Contact_Us')}}">
@@ -75,7 +75,7 @@
                                         class="form-label-secondary" data-toggle="tooltip"
                                         data-placement="right"
                                         data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                             alt="">
                                     </span></label>
                                 <input id="contact_us_sub_title" type="text" maxlength="80" name="contact_us_sub_title[]" value="{{ $contact_us_sub_title?->getRawOriginal('value') }}" class="form-control" placeholder="{{translate('Ex_:_Any_questions_or_remarks_?_Just_write_us_a_message!')}}">
@@ -113,7 +113,7 @@
                                         class="form-label-secondary" data-toggle="tooltip"
                                         data-placement="right"
                                         data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                             alt="">
                                     </span></label>
                                 <input id="contact_us_title{{$lang}}" type="text" maxlength="20" name="contact_us_title[]" value="{{ $contact_us_title_translate[$lang]['value']??'' }}" class="form-control" placeholder="{{translate('Ex_:_Contact_Us')}}">
@@ -123,7 +123,7 @@
                                         class="form-label-secondary" data-toggle="tooltip"
                                         data-placement="right"
                                         data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                             alt="">
                                     </span></label>
                                 <input id="contact_us_sub_title{{$lang}}" type="text" maxlength="80" name="contact_us_sub_title[]" value="{{ $contact_us_sub_title_translate[$lang]['value']??'' }}" class="form-control" placeholder="{{translate('Ex_:_Any_questions_or_remarks_?_Just_write_us_a_message!')}}">
@@ -140,7 +140,7 @@
                                         class="form-label-secondary" data-toggle="tooltip"
                                         data-placement="right"
                                         data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                             alt="">
                                     </span></label>
                                 <input id="contact_us_title" type="text" maxlength="20" name="contact_us_title[]" class="form-control" placeholder="{{translate('Ex_:_Contact_Us')}}">
@@ -150,7 +150,7 @@
                                         class="form-label-secondary" data-toggle="tooltip"
                                         data-placement="right"
                                         data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                             alt="">
                                     </span></label>
                                 <input id="contact_us_sub_title" type="text" maxlength="80" name="contact_us_sub_title[]" class="form-control" placeholder="{{translate('Ex_:_Any_questions_or_remarks_?_Just_write_us_a_message!')}}">

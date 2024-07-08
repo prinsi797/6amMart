@@ -42,13 +42,13 @@
                                 <div>
                                     <label class="form-label d-block mb-3">
                                         {{translate('Banner')}}  <span class="text--primary">{{translate('(size: 2:1)')}}</span><span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('If_you_want_to_upload_one_banner_then_you_have_to_upload_it_in_2:1_ratio_otherwise_the_ratio_will_be_same_as_before.') }}">
-                                            <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                            <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                         </span>
                                     </label>
 
                                     <label class="upload-img-3 d-block max-w-640">
                                         <div class="img">
-                                            <img src="{{asset("//admin/img/upload-4.png")}}" data-onerror-image="{{asset("//admin/img/upload-4.png")}}" class="vertical-img w-100 mw-100 onerror-image" alt="">
+                                            <img src="{{asset("assets/admin/img/upload-4.png")}}" data-onerror-image="{{asset("//admin/img/upload-4.png")}}" class="vertical-img w-100 mw-100 onerror-image" alt="">
                                         </div>
                                         <input type="file"  name="image" hidden="">
                                     </label>

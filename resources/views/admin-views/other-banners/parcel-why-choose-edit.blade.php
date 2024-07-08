@@ -51,7 +51,7 @@
                                         <div class="col-12">
                                             <div class="form-group">
                                                 <label class="form-label">{{translate('Title')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                            <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                            <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                                         </span></label>
                                                 <input type="text"  maxlength="80" name="title[]" value="{{ $banner?->getRawOriginal('title')??'' }}" class="form-control" placeholder="{{translate('messages.title_here...')}}">
                                             </div>
@@ -59,7 +59,7 @@
                                         <div class="col-12">
                                             <div class="form-group">
                                                 <label class="form-label">{{translate('messages.Short_Description')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_short_description_within_100_characters') }}">
-                                                            <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                            <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                                         </span></label>
                                                 <textarea type="text"  maxlength="100" name="short_description[]" class="form-control" rows="3" {{translate('messages.short_description_here...')}}> {{ $banner?->getRawOriginal('short_description')??'' }}</textarea>
                                             </div>
@@ -86,7 +86,7 @@
                                         <div class="col-12">
                                             <div class="form-group">
                                                 <label class="form-label">{{translate('Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                                 </span></label>
                                                 <input type="text"  maxlength="80" name="title[]" value="{{ $translate[$lang]['title']??'' }}"class="form-control" placeholder="{{translate('messages.title_here...')}}">
                                             </div>
@@ -94,7 +94,7 @@
                                         <div class="col-12">
                                             <div class="form-group">
                                                 <label class="form-label">{{translate('messages.Short_Description')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_short_description_within_100_characters') }}">
-                                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                                 </span></label>
                                                 <textarea type="text"  maxlength="100" name="short_description[]" class="form-control" rows="3" {{translate('messages.short_description_here...')}}> {{ $translate[$lang]['short_description']??'' }}</textarea>
                                             </div>
@@ -108,7 +108,7 @@
                                 @else
                                 <div class="col-sm-6">
                                     <label class="form-label">{{translate('Title')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text"  maxlength="80" name="title[]" class="form-control" placeholder="{{translate('messages.title_here...')}}">
                                 </div>
@@ -126,7 +126,7 @@
                                                 src="{{ \App\CentralLogics\Helpers::get_image_helper(
                                                     $banner,'image',
                                                     asset('storage/why_choose').'/'.$banner['image'] ?? '',
-                                                    asset('//admin/img/aspect-1.png'),
+                                                    asset('/assets/admin/img/aspect-1.png'),
                                                     'why_choose/'
                                                 ) }}" data-onerror-image="{{asset('assets/admin/img/aspect-1.png')}}" alt="" class="img__aspect-1 min-w-187px max-w-187px onerror-image">
                                             </div>

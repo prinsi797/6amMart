@@ -131,7 +131,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="download_user_app_title" type="text" maxlength="20" name="download_user_app_title[]" value="{{ $download_user_app_title?->getRawOriginal('value') }}" class="form-control" placeholder="{{translate('messages.title_here...')}}">
@@ -141,7 +141,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_50_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="download_user_app_sub_title" type="text" maxlength="50" name="download_user_app_sub_title[]" value="{{ $download_user_app_sub_title?->getRawOriginal('value') }}" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
@@ -179,7 +179,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="download_user_app_title{{$lang}}" type="text" maxlength="20" name="download_user_app_title[]" value="{{ $download_user_app_title_translate[$lang]['value']??'' }}" class="form-control" placeholder="{{translate('messages.title_here...')}}">
@@ -189,7 +189,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_50_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="download_user_app_sub_title{{$lang}}" type="text" maxlength="50" name="download_user_app_sub_title[]" value="{{ $download_user_app_sub_title_translate[$lang]['value']??'' }}" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
@@ -206,7 +206,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="download_user_app_title" type="text" maxlength="20" name="download_user_app_title[]" class="form-control" placeholder="{{translate('messages.title_here...')}}">
@@ -216,7 +216,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_50_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="download_user_app_sub_title" type="text" maxlength="50" name="download_user_app_sub_title[]" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">

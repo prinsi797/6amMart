@@ -71,25 +71,25 @@
                             <div class="row g-3 lang_form default-form">
                                 <div class="col-sm-6">
                                     <label for="join_seller_title" class="form-label">{{translate('Title')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text"  id="join_seller_title" maxlength="20" name="join_seller_title[]" class="form-control" value="{{$join_seller_title?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.title_here...')}}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="join_seller_sub_title" class="form-label">{{translate('Sub Title')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_60_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_seller_sub_title" type="text"  maxlength="60" name="join_seller_sub_title[]" class="form-control" value="{{$join_seller_sub_title?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.sub_title_here...')}}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="join_seller_button_name" class="form-label">{{translate('Button Name')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_15_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_seller_button_name" type="text"  maxlength="15" name="join_seller_button_name[]" class="form-control" value="{{$join_seller_button_name?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.button_name_here...')}}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="join_seller_button_url" class="form-label">{{translate('Button URL')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('The_website_page_where_people_will_register_as_sellers.') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_seller_button_url" type="url" name="join_seller_button_url" class="form-control" value="{{$join_seller_button_url['value']??''}}" placeholder="{{translate('Ex: https://www.apple.com/app-store/')}}">
                                 </div>
@@ -131,25 +131,25 @@
                                     <div class="row g-3 d-none lang_form" id="{{$lang}}-form">
                                         <div class="col-sm-6">
                                             <label for="join_seller_title{{$lang}}" class="form-label">{{translate('Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text"  id="join_seller_title{{$lang}}" maxlength="20" name="join_seller_title[]" class="form-control" value="{{ $join_seller_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.title_here...')}}">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="join_seller_sub_title{{$lang}}" class="form-label">{{translate('Sub Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_60_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_seller_sub_title{{$lang}}" type="text"  maxlength="60" name="join_seller_sub_title[]" class="form-control" value="{{ $join_seller_sub_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.sub_title_here...')}}">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="join_seller_button_name{{$lang}}" class="form-label">{{translate('Button Name')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_15_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_seller_button_name{{$lang}}" type="text"  maxlength="15" name="join_seller_button_name[]" class="form-control" value="{{ $join_seller_button_name_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.button_name_here...')}}">
                                         </div>
                                         <div class="col-sm-6">
                                             <label id="join_seller_button_url" class="form-label">{{translate('Button URL')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('The_website_page_where_people_will_register_as_sellers.') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="url"  id="join_seller_button_url" class="form-control" value="{{$join_seller_button_url['value']??''}}" placeholder="{{translate('Ex: https://www.apple.com/app-store/')}}" readonly>
                                         </div>
@@ -160,25 +160,25 @@
                                 <div class="row g-3">
                                     <div class="col-sm-6">
                                         <label for="join_seller_title" class="form-label">{{translate('Title')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text" id="join_seller_title"  maxlength="20" name="join_seller_title[]" class="form-control" placeholder="{{translate('messages.title_here...')}}">
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="join_seller_sub_title" class="form-label">{{translate('Sub Title')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_60_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text" id="join_seller_sub_title" value="join_seller_sub_title" maxlength="60" name="join_seller_sub_title[]" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="join_seller_button_name" class="form-label">{{translate('Button Name')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_15_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_seller_button_name" type="text"  maxlength="15" name="join_seller_button_name[]" class="form-control" placeholder="{{translate('messages.button_name_here...')}}">
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="url" class="form-label">{{translate('Button URL')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('The_website_page_where_people_will_register_as_sellers.') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="url" id="url" class="form-control" placeholder="{{translate('Ex: https://www.apple.com/app-store/')}}" readonly>
                                     </div>
@@ -205,25 +205,25 @@
                             <div class="row g-3 lang_form default-form">
                                 <div class="col-sm-6">
                                     <label for="join_delivery_man_title" class="form-label">{{translate('Title')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text" id="join_delivery_man_title" maxlength="20" name="join_delivery_man_title[]" class="form-control" value="{{$join_delivery_man_title?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.title_here...')}}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="join_delivery_man_sub_title" class="form-label">{{translate('Sub Title')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_60_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_delivery_man_sub_title" type="text"  maxlength="60" name="join_delivery_man_sub_title[]" class="form-control" value="{{$join_delivery_man_sub_title?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.sub_title_here...')}}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="join_delivery_man_button_name" class="form-label">{{translate('Button Name')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_15_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_delivery_man_button_name" type="text"  maxlength="15" name="join_delivery_man_button_name[]" class="form-control" value="{{$join_delivery_man_button_name?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.button_name_here...')}}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="join_delivery_man_button_url" class="form-label">{{translate('Button URL')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('The_website_page_where_people_will_register_as_deliveryman.') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_delivery_man_button_url" type="url" name="join_delivery_man_button_url" class="form-control" value="{{$join_delivery_man_button_url['value']??''}}" placeholder="{{translate('Ex: https://www.apple.com/app-store/')}}">
                                 </div>
@@ -265,25 +265,25 @@
                                     <div class="row g-3 d-none lang_form" id="{{$lang}}-form1">
                                         <div class="col-sm-6">
                                             <label for="join_delivery_man_title{{$lang}}" class="form-label">{{translate('Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text" id="join_delivery_man_title{{$lang}}" maxlength="20" name="join_delivery_man_title[]" class="form-control" value="{{ $join_delivery_man_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.title_here...')}}">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="join_delivery_man_sub_title{{$lang}}" class="form-label">{{translate('Sub Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_60_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text" id="join_delivery_man_sub_title{{$lang}}" maxlength="60" name="join_delivery_man_sub_title[]" class="form-control" value="{{ $join_delivery_man_sub_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.sub_title_here...')}}">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="join_delivery_man_button_name{{$lang}}" class="form-label">{{translate('Button Name')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_15_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text"  id="join_delivery_man_button_name{{$lang}}" maxlength="15" name="join_delivery_man_button_name[]" class="form-control" value="{{ $join_delivery_man_button_name_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.button_name_here...')}}">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="join_delivery_man_button_url" class="form-label">{{translate('Button URL')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('The_website_page_where_people_will_register_as_deliveryman.') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="url" id="join_delivery_man_button_url" class="form-control" value="{{$join_delivery_man_button_url['value']??''}}" placeholder="{{translate('Ex: https://www.apple.com/app-store/')}}" readonly>
                                         </div>
@@ -294,25 +294,25 @@
                                 <div class="row g-3">
                                     <div class="col-sm-6">
                                         <label for="join_delivery_man_title" class="form-label">{{translate('Title')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_delivery_man_title" type="text"  maxlength="20" name="join_delivery_man_title[]" class="form-control" placeholder="{{translate('messages.title_here...')}}">
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="join_delivery_man_sub_title" class="form-label">{{translate('Sub Title')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_60_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_delivery_man_sub_title" type="text"  maxlength="60" name="join_delivery_man_sub_title[]" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="join_delivery_man_button_name" class="form-label">{{translate('Button Name')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_15_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="join_delivery_man_button_name" type="text"  maxlength="15" name="join_delivery_man_button_name[]" class="form-control" placeholder="{{translate('messages.button_name_here...')}}">
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="url" class="form-label">{{translate('Button URL')}}<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('The_website_page_where_people_will_register_as_deliveryman.') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="url" type="url" class="form-control" placeholder="{{translate('Ex: https://www.apple.com/app-store/')}}" readonly>
                                     </div>

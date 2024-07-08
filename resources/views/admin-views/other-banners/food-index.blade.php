@@ -60,7 +60,7 @@
                                             src="{{ \App\CentralLogics\Helpers::get_image_helper(
                                                 $best_reviewed_section_banner,'value',
                                                 asset('storage/promotional_banner') . '/' . $best_reviewed_section_banner?->value,
-                                                asset('//admin/img/upload-placeholder.png'),
+                                                asset('assets/admin/img/upload-placeholder.png'),
                                                 'promotional_banner/'
                                             ) }}"
 

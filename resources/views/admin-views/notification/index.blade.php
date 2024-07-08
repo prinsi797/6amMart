@@ -73,7 +73,7 @@
                                         </label>
                                         <div class="text-center py-3 my-auto">
                                             <img class="img--vertical" id="viewer"
-                                                src="{{asset('/admin/img/900x400/img1.jpg')}}" alt="image"/>
+                                                src="{{asset('assets/admin/img/900x400/img1.jpg')}}" alt="image"/>
                                         </div>
                                         <div class="custom-file">
                                             <input type="file" name="image" id="customFileEg1" class="custom-file-input"
@@ -133,13 +133,13 @@
 
                                     <a id="export-excel" class="dropdown-item" href="{{route('admin.notification.export', ['type'=>'excel' , request()->getQueryString()])}}">
                                         <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                            src="{{ asset('/admin') }}/svg/components/excel.svg"
+                                            src="{{ asset('assets/admin') }}/svg/components/excel.svg"
                                             alt="Image Description">
                                         {{ translate('messages.excel') }}
                                     </a>
                                     <a id="export-csv" class="dropdown-item" href="{{route('admin.notification.export', ['type'=>'csv', request()->getQueryString()])}}">
                                         <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                            src="{{ asset('/admin') }}/svg/components/placeholder-csv-format.svg"
+                                            src="{{ asset('assets/admin') }}/svg/components/placeholder-csv-format.svg"
                                             alt="Image Description">
                                         .{{ translate('messages.csv') }}
                                     </a>
@@ -308,7 +308,7 @@
 
             $('#reset_btn').click(function(){
                 $('#zone').val('all').trigger('change');
-                $('#viewer').attr('src','{{asset('/admin/img/900x400/img1.jpg')}}');
+                $('#viewer').attr('src','{{asset('assets/admin/img/900x400/img1.jpg')}}');
                 $('#customFileEg1').val(null);
             })
         </script>

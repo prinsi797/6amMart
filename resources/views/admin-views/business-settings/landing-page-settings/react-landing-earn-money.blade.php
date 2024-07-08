@@ -71,14 +71,14 @@
                                 <div class="col-sm-6">
                                     <label for="earning_title" class="form-label">{{translate('Title')}} ({{ translate('messages.default') }})
                                     <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_40_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input  id="earning_title" type="text"  maxlength="40" name="earning_title[]" class="form-control" value="{{$earning_title?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.title_here...')}}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="earning_sub_title" class="form-label">{{translate('Sub Title')}} ({{ translate('messages.default') }})
                                     <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input  id="earning_sub_title" type="text"  maxlength="80" name="earning_sub_title[]" class="form-control" value="{{$earning_sub_title?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.sub_title_here...')}}">
                                 </div>
@@ -110,13 +110,13 @@
                                     <div class="row g-3 d-none lang_form" id="{{$lang}}-form">
                                         <div class="col-sm-6">
                                             <label for="earning_title{{$lang}}" class="form-label">{{translate('Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_40_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="earning_title{{$lang}}" type="text"  maxlength="40" name="earning_title[]" class="form-control" value="{{ $earning_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.title_here...')}}">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="earning_sub_title{{$lang}}" class="form-label">{{translate('Sub Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text" id="earning_sub_title{{$lang}}"  maxlength="80" name="earning_sub_title[]" class="form-control" value="{{ $earning_sub_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.sub_title_here...')}}">
                                         </div>
@@ -157,13 +157,13 @@
                             <div class="row g-3 lang_form default-form">
                                 <div class="col-sm-6">
                                     <label for="earning_seller_title" class="form-label">{{translate('Title')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_30_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="earning_seller_title" type="text"  maxlength="30" name="earning_seller_title[]" class="form-control" value="{{$earning_seller_title?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.title_here...')}}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="earning_seller_sub_title" class="form-label">{{translate('Sub Title')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_65_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="earning_seller_sub_title" type="text"  maxlength="65" name="earning_seller_sub_title[]" class="form-control" value="{{$earning_seller_sub_title?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.sub_title_here...')}}">
                                 </div>
@@ -195,13 +195,13 @@
                                     <div class="row g-3 d-none lang_form" id="{{$lang}}-form1">
                                         <div class="col-sm-6">
                                             <label for="earning_seller_title{{$lang}}" class="form-label">{{translate('Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_30_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="earning_seller_title{{$lang}}" type="text"  maxlength="30" name="earning_seller_title[]" class="form-control" value="{{ $earning_seller_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.title_here...')}}">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="earning_seller_sub_title{{$lang}}" class="form-label">{{translate('Sub Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_65_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="earning_seller_sub_title{{$lang}}" type="text"  maxlength="65" name="earning_seller_sub_title[]" class="form-control" value="{{ $earning_seller_sub_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.sub_title_here...')}}">
                                         </div>
@@ -238,7 +238,7 @@
                                                     <label for="earning_seller_button_name" class="form-label text-capitalize">
                                                         {{translate('Button Name')}}({{ translate('messages.default') }})
                                                         <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                        <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                        <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                                     </span></label>
                                             <input id="earning_seller_button_name" type="text" maxlength="20" name="earning_seller_button_name[]" value="{{ $earning_seller_button_name?->getRawOriginal('value')??'' }}"  placeholder="{{translate('Ex: Order now')}}" class="form-control h--45px" >
                                                 </div>
@@ -259,7 +259,7 @@
                                                     <label for="earning_seller_button_name{{$lang}}" class="form-label text-capitalize">
                                                         {{translate('Button Name')}}({{strtoupper($lang)}})
                                                         <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                        <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                        <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                                     </span></label>
                                             <input id="earning_seller_button_name{{$lang}}" type="text" maxlength="20" name="earning_seller_button_name[]" value="{{ $earning_seller_button_name_translate[$lang]['value']??'' }}"  placeholder="{{translate('Ex: Order now')}}" class="form-control h--45px" >
                                                 </div>
@@ -312,13 +312,13 @@
                             <div class="row g-3 lang_form default-form">
                                 <div class="col-sm-6">
                                     <label for="earning_dm_title" class="form-label">{{translate('Title')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_30_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="earning_dm_title" type="text"  maxlength="30" name="earning_dm_title[]" class="form-control" value="{{$earning_dm_title?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.title_here...')}}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="earning_dm_sub_title" class="form-label">{{translate('Sub Title')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_65_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="earning_dm_sub_title" type="text"  maxlength="65" name="earning_dm_sub_title[]" class="form-control" value="{{$earning_dm_sub_title?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.sub_title_here...')}}">
                                 </div>
@@ -350,13 +350,13 @@
                                     <div class="row g-3 d-none lang_form" id="{{$lang}}-form3">
                                         <div class="col-sm-6">
                                             <label  for="earning_dm_title{{$lang}}" class="form-label">{{translate('Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_30_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="earning_dm_title{{$lang}}" type="text"  maxlength="30" name="earning_dm_title[]" class="form-control" value="{{ $earning_dm_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.title_here...')}}">
                                         </div>
                                         <div class="col-sm-6">
                                             <label  for="earning_dm_sub_title{{$lang}}" class="form-label">{{translate('Sub Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_65_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="earning_dm_sub_title{{$lang}}" type="text"  maxlength="65" name="earning_dm_sub_title[]" class="form-control" value="{{ $earning_dm_sub_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.sub_title_here...')}}">
                                         </div>
@@ -393,7 +393,7 @@
                                                     <label for="earning_dm_button_name" class="form-label text-capitalize">
                                                         {{translate('Button Name')}}({{ translate('messages.default') }})
                                                         <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                        <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                        <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                                     </span></label>
                                             <input  id="earning_dm_button_name" type="text" maxlength="20" name="earning_dm_button_name[]" value="{{ $earning_dm_button_name?->getRawOriginal('value')??'' }}"  placeholder="{{translate('Ex: Order now')}}" class="form-control h--45px" >
                                                 </div>
@@ -414,7 +414,7 @@
                                                     <label for="earning_dm_button_name{{$lang}}" class="form-label text-capitalize">
                                                         {{translate('Button Name')}}({{strtoupper($lang)}})
                                                         <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                        <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                        <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                                     </span></label>
                                             <input id="earning_dm_button_name{{$lang}}" type="text" maxlength="20" name="earning_dm_button_name[]" value="{{ $earning_dm_button_name_translate[$lang]['value']??'' }}"  placeholder="{{translate('Ex: Order now')}}" class="form-control h--45px" >
                                                 </div>

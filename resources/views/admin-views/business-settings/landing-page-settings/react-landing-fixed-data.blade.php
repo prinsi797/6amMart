@@ -119,7 +119,7 @@
                                 <div class="col-sm-6">
                                     <label for="fixed_newsletter_title"  class="form-label">{{translate('Title')}} ({{ translate('messages.default') }})
                                     <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_30_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span>
                                             <span class="form-label-secondary text-danger"
                                             data-toggle="tooltip" data-placement="right"
@@ -132,7 +132,7 @@
                                 <div class="col-sm-6">
                                     <label for="fixed_newsletter_sub_title"  class="form-label">{{translate('Sub Title')}} ({{ translate('messages.default') }})
                                     <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_100_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span><span class="form-label-secondary text-danger"
                                             data-toggle="tooltip" data-placement="right"
                                             data-original-title="{{ translate('messages.Required.')}}"> *
@@ -168,13 +168,13 @@
                                     <div class="row g-3 d-none lang_form" id="{{$lang}}-form">
                                         <div class="col-sm-6">
                                             <label for="fixed_newsletter_title{{$lang}}" class="form-label">{{translate('Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_30_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="fixed_newsletter_title{{$lang}}" type="text"  maxlength="30" name="fixed_newsletter_title[]" class="form-control" value="{{ $fixed_newsletter_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.title_here...')}}">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="fixed_newsletter_sub_title{{$lang}}" class="form-label">{{translate('Sub Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_100_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="fixed_newsletter_sub_title{{$lang}}" type="text"  maxlength="100" name="fixed_newsletter_sub_title[]" class="form-control" value="{{ $fixed_newsletter_sub_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.sub_title_here...')}}">
                                         </div>
@@ -215,7 +215,7 @@
                             <div class="row g-3 lang_form default-form">
                                 <div class="col-12">
                                     <label for="fixed_footer_description" class="form-label">{{translate('short_Description')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_120_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="fixed_footer_description" type="text"  maxlength="120" name="fixed_footer_description[]" class="form-control" value="{{$fixed_footer_description?->getRawOriginal('value')??''}}" placeholder="{{translate('messages.title_here...')}}">
                                 </div>
@@ -237,7 +237,7 @@
                                     <div class="row g-3 d-none lang_form" id="{{$lang}}-form1">
                                         <div class="col-12">
                                             <label for="fixed_footer_description{{$lang}}" class="form-label">{{translate('short_Description')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_120_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input id="fixed_footer_description{{$lang}}" type="text"  maxlength="120" name="fixed_footer_description[]" class="form-control" value="{{ $fixed_footer_description_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.title_here...')}}">
                                         </div>

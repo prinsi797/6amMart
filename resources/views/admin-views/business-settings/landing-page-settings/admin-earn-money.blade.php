@@ -66,7 +66,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_40_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="earning_title" type="text" maxlength="40" name="earning_title[]" class="form-control" value="{{$earning_title?->getRawOriginal('value')}}" placeholder="{{translate('messages.title_here...')}}">
@@ -76,7 +76,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="sub-text" type="text" maxlength="80" name="earning_sub_title[]" class="form-control" value="{{$earning_sub_title?->getRawOriginal('value')}}" placeholder="{{translate('messages.sub_title_here...')}}">
@@ -112,7 +112,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_40_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="earning_title" type="text" maxlength="40" name="earning_title[]" class="form-control" value="{{ $earning_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.title_here...')}}">
@@ -122,7 +122,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="sub-title" type="text" maxlength="80" name="earning_sub_title[]" class="form-control" value="{{ $earning_sub_title_translate[$lang]['value']?? '' }}" placeholder="{{translate('messages.sub_title_here...')}}">
@@ -137,7 +137,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_40_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input  id="earning-title" type="text" maxlength="40" name="earning_title[]" class="form-control" placeholder="{{translate('messages.title_here...')}}">
@@ -147,7 +147,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="earning-sub-title" type="text" maxlength="80" name="earning_sub_title[]" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">

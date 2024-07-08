@@ -41,28 +41,28 @@ active
                     <a class="__card-2 __bg-1" href="#">
                         <h4 class="title text--title">{{ $data['total_subscribed_user'] }}</h4>
                         <span class="subtitle">{{ translate('Total_Subscribed_User') }}</span>
-                        <img src="{{asset('/admin/img/subscription-plan/subscribed-user.png')}}" alt="report/new" class="card-icon" width="35px">
+                        <img src="{{asset('assets/admin/img/subscription-plan/subscribed-user.png')}}" alt="report/new" class="card-icon" width="35px">
                     </a>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <a class="__card-2 __bg-3" href="#">
                         <h4 class="title text--title">{{ $data['active_subscription'] }}</h4>
                         <span class="subtitle">{{ translate('Active_Subscriptions') }}</span>
-                        <img src="{{asset('/admin/img/subscription-plan/active-user.png')}}" alt="report/new" class="card-icon" width="35px">
+                        <img src="{{asset('assets/admin/img/subscription-plan/active-user.png')}}" alt="report/new" class="card-icon" width="35px">
                     </a>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <a class="__card-2 __bg-6" href="#">
                         <h4 class="title text--title">{{ $data['expired_subscription'] }}</h4>
                         <span class="subtitle">{{ translate('Expired_Subscription') }}</span>
-                        <img src="{{asset('/admin/img/subscription-plan/expired-user.png')}}" alt="report/new" class="card-icon" width="35px">
+                        <img src="{{asset('assets/admin/img/subscription-plan/expired-user.png')}}" alt="report/new" class="card-icon" width="35px">
                     </a>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <a class="__card-2 __bg-4" href="#">
                         <h4 class="title text--title">{{ $data['expired_soon'] }}</h4>
                         <span class="subtitle">{{ translate('Expiring_Soon') }} </span>
-                        <img src="{{asset('/admin/img/subscription-plan/expired-soon.png')}}" alt="report/new" class="card-icon" width="35px">
+                        <img src="{{asset('assets/admin/img/subscription-plan/expired-soon.png')}}" alt="report/new" class="card-icon" width="35px">
                     </a>
                 </div>
             </div>
@@ -141,14 +141,14 @@ active
                             <a id="export-excel" class="dropdown-item"
                                 href="{{ route('admin.business-settings.subscriptionackage.subscriberListExport', ['export_type' => 'excel', request()->getQueryString()]) }}">
                                 <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                    src="{{ asset('/admin/svg/components/excel.svg') }}"
+                                    src="{{ asset('assets/admin/svg/components/excel.svg') }}"
                                     alt="Image Description">
                                 {{ translate('messages.excel') }}
                             </a>
                             <a id="export-csv" class="dropdown-item"
                                 href="{{ route('admin.business-settings.subscriptionackage.subscriberListExport', ['export_type' => 'csv', request()->getQueryString()]) }}">
                                 <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                    src="{{ asset('/admin/svg/components/placeholder-csv-format.svg') }}"
+                                    src="{{ asset('assets/admin/svg/components/placeholder-csv-format.svg') }}"
                                     alt="Image Description">
                                 .{{ translate('messages.csv') }}
                             </a>

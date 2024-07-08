@@ -34,7 +34,7 @@
                             <h5 class="text-capitalize m-0 text--primary pl-2">
                                 {{translate('Send Mail on Subscription_Successful?')}}
                         <span class="form-label-secondary text--primary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('If_a_Store_successfully_subscribs_to_a_plan_they_will_get_a_confirmation_email.') }}">
-                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                 </span>
                             </h5>
                             <label class="toggle-switch toggle-switch-sm">

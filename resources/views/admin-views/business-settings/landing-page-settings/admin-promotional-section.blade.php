@@ -57,13 +57,13 @@
                             <div class="row g-3 lang_form" id="default-form">
                                 <div class="col-sm-6">
                                     <label for="title" class="form-label">{{translate('Title')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                         <input id="title" type="text"  maxlength="20" name="title[]" class="form-control" placeholder="{{translate('messages.title_here...')}}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="sub_title" class="form-label">{{translate('Sub Title')}} ({{ translate('messages.default') }})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                         <input id="sub_title" type="text"  maxlength="80" name="sub_title[]" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
                                 </div>
@@ -73,13 +73,13 @@
                                     <div class="row g-3 d-none lang_form" id="{{$lang}}-form">
                                         <div class="col-sm-6">
                                             <label for="title{{$lang}}" class="form-label">{{translate('Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                         <input id="title{{$lang}}" type="text"  maxlength="20" name="title[]" class="form-control" placeholder="{{translate('messages.title_here...')}}">
                                         </div>
                                         <div class="col-sm-6">
                                             <label for="sub_title{{$lang}}" class="form-label">{{translate('Sub Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                         <input type="text"  id="sub_title{{$lang}}" maxlength="80" name="sub_title[]" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
                                         </div>

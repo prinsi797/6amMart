@@ -70,7 +70,7 @@
                                         <div class="col-12">
                                             <label for="download_user_app_title" class="form-label">{{translate('Title')}} ({{ translate('messages.default') }})
                                             <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_40_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span>
                                         </label>
                                             <input id="download_user_app_title" type="text" maxlength="40" name="download_user_app_title[]" value="{{ $download_user_app_title?->getRawOriginal('value')??'' }}" class="form-control" placeholder="{{translate('messages.title_here...')}}">
@@ -78,7 +78,7 @@
                                         <div class="col-12">
                                             <label for="download_user_app_sub_title" class="form-label">{{translate('Sub Title')}} ({{ translate('messages.default') }})
                                             <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span>
                                         </label>
                                             <input  id="download_user_app_sub_title" type="text" maxlength="20" name="download_user_app_sub_title[]" value="{{ $download_user_app_sub_title?->getRawOriginal('value')??'' }}" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
@@ -114,7 +114,7 @@
                                             <div class="col-12">
                                                 <label for="download_user_app_title{{$lang}}" class="form-label">{{translate('Title')}} ({{strtoupper($lang)}})
                                                 <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_40_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span>
                                         </label>
                                                 <input id="download_user_app_title{{$lang}}" type="text" maxlength="40" name="download_user_app_title[]" value="{{ $download_user_app_title_translate[$lang]['value']??'' }}" class="form-control" placeholder="{{translate('messages.title_here...')}}">
@@ -122,7 +122,7 @@
                                             <div class="col-12">
                                                 <label for="download_user_app_sub_title{{$lang}}" class="form-label">{{translate('Sub Title')}} ({{strtoupper($lang)}})
                                                 <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span>
                                         </label>
                                                 <input id="download_user_app_sub_title{{$lang}}" type="text" maxlength="20" name="download_user_app_sub_title[]" value="{{ $download_user_app_sub_title_translate[$lang]['value']??'' }}" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
@@ -137,7 +137,7 @@
                                         <div class="col-12">
                                             <label for="download_user_app_title" class="form-label">{{translate('Title')}}
                                             <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_40_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span>
                                         </label>
                                             <input id="download_user_app_title" type="text" maxlength="40" name="download_user_app_title[]" class="form-control" placeholder="{{translate('messages.title_here...')}}">
@@ -145,7 +145,7 @@
                                         <div class="col-12">
                                             <label for="download_user_app_sub_title" class="form-label">{{translate('Sub Title')}}
                                             <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span>
                                         </label>
                                             <input id="download_user_app_sub_title" type="text" maxlength="20" name="download_user_app_sub_title[]" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">

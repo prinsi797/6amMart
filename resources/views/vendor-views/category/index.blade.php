@@ -51,13 +51,13 @@
                                         class="dropdown-header">{{translate('messages.download_options')}}</span>
                                     <a id="export-excel" class="dropdown-item" href="{{route('vendor.category.export-categories', ['type'=>'excel',request()->getQueryString()])}}">
                                         <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                                src="{{asset('/admin/svg/components/excel.svg')}}"
+                                                src="{{asset('assets/admin/svg/components/excel.svg')}}"
                                                 alt="Image Description">
                                         {{translate('messages.excel')}}
                                     </a>
                                     <a id="export-csv" class="dropdown-item" href="{{route('vendor.category.export-categories', ['type'=>'csv',request()->getQueryString()])}}">
                                         <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                                src="{{asset('/admin/svg/components/placeholder-csv-format.svg')}}"
+                                                src="{{asset('assets/admin/svg/components/placeholder-csv-format.svg')}}"
                                                 alt="Image Description">
                                         .{{translate('messages.csv')}}
                                     </a>

@@ -65,7 +65,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="title" type="text" maxlength="20" name="title[]" value="{{ $feature['title'] }}" class="form-control" placeholder="{{translate('messages.title_here...')}}">
@@ -75,7 +75,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="sub_title" type="text" maxlength="80" name="sub_title[]" value="{{ $feature['sub_title'] }}" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
@@ -105,7 +105,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_20_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="title" type="text" maxlength="20" name="title[]" value="{{ $translate[$lang]['title']??'' }}" class="form-control" placeholder="{{translate('messages.title_here...')}}">
@@ -115,7 +115,7 @@
                                                         class="form-label-secondary" data-toggle="tooltip"
                                                         data-placement="right"
                                                         data-original-title="{{ translate('Write_the_title_within_80_characters') }}">
-                                                        <img src="{{ asset('/admin/img/info-circle.svg') }}"
+                                                        <img src="{{ asset('assets/admin/img/info-circle.svg') }}"
                                                             alt="">
                                                     </span></label>
                                                 <input id="sub_title" type="text" maxlength="80" name="sub_title[]" value="{{ $translate[$lang]['sub_title']??'' }}" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">

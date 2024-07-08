@@ -33,7 +33,7 @@
                             <h5 class="text-capitalize m-0 text--primary pl-2">
                                 {{translate('Send_Mail_On_‘Forgot_Password’?')}}
                                 <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('If_a_user_clicks_‘Forgot_Password’_during_login,_an_automated_email_will_be_sent_to_the_admin.') }}">
-                                    <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                    <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                 </span>
                             </h5>
                             <label class="toggle-switch toggle-switch-sm">

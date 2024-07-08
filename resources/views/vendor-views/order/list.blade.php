@@ -51,13 +51,13 @@
                                 <span class="dropdown-header">{{translate('messages.options')}}</span>
                                 <a id="export-copy" class="dropdown-item" href="javascript:">
                                     <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                            src="{{asset('/admin/svg/illustrations/copy.svg')}}"
+                                            src="{{asset('assets/admin/svg/illustrations/copy.svg')}}"
                                             alt="Image Description">
                                     {{translate('messages.copy')}}
                                 </a>
                                 <a id="export-print" class="dropdown-item" href="javascript:">
                                     <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                            src="{{asset('/admin/svg/illustrations/print.svg')}}"
+                                            src="{{asset('assets/admin/svg/illustrations/print.svg')}}"
                                             alt="Image Description">
                                     {{translate('messages.print')}}
                                 </a>
@@ -66,19 +66,19 @@
                                     class="dropdown-header">{{translate('messages.download_options')}}</span>
                                 <a id="export-excel" class="dropdown-item" href="javascript:">
                                     <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                            src="{{asset('/admin/svg/components/excel.svg')}}"
+                                            src="{{asset('assets/admin/svg/components/excel.svg')}}"
                                             alt="Image Description">
                                     {{translate('messages.excel')}}
                                 </a>
                                 <a id="export-csv" class="dropdown-item" href="javascript:">
                                     <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                            src="{{asset('/admin/svg/components/placeholder-csv-format.svg')}}"
+                                            src="{{asset('assets/admin/svg/components/placeholder-csv-format.svg')}}"
                                             alt="Image Description">
                                     .{{translate('messages.csv')}}
                                 </a>
                                 <a id="export-pdf" class="dropdown-item" href="javascript:">
                                     <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                            src="{{asset('/admin/svg/components/pdf.svg')}}"
+                                            src="{{asset('assets/admin/svg/components/pdf.svg')}}"
                                             alt="Image Description">
                                     {{translate('messages.pdf')}}
                                 </a>

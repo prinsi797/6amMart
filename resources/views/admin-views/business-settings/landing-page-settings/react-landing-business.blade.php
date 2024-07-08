@@ -68,14 +68,14 @@
                                         <div class="col-12">
                                             <label for="business_title" class="form-label">{{translate('Title')}} ({{ translate('messages.default') }})
                                             <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_30_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text" id="business_title" maxlength="30" name="business_title[]" value="{{ $business_title?->getRawOriginal('value')??'' }}" class="form-control" placeholder="{{translate('messages.title_here...')}}">
                                         </div>
                                         <div class="col-12">
                                             <label for="business_sub_title" class="form-label">{{translate('Sub Title')}} ({{ translate('messages.default') }})
                                             <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_35_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text" id="business_sub_title" maxlength="35" name="business_sub_title[]" value="{{ $business_sub_title?->getRawOriginal('value')??'' }}" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
                                         </div>
@@ -109,13 +109,13 @@
                                         <div class="row g-3">
                                             <div class="col-12">
                                                 <label for="business_title{{$lang}}" class="form-label">{{translate('Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_30_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text" id="business_title{{$lang}}"  maxlength="30" name="business_title[]" value="{{ $business_title_translate[$lang]['value']??'' }}" class="form-control" placeholder="{{translate('messages.title_here...')}}">
                                             </div>
                                             <div class="col-12">
                                                 <label for="business_sub_title{{$lang}}" class="form-label">{{translate('Sub Title')}} ({{strtoupper($lang)}})<span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('Write_the_title_within_35_characters') }}">
-                                                <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                             </span></label>
                                     <input type="text" id="business_sub_title{{$lang}}"  maxlength="35" name="business_sub_title[]" value="{{ $business_sub_title_translate[$lang]['value']??'' }}" class="form-control" placeholder="{{translate('messages.sub_title_here...')}}">
                                             </div>
@@ -150,7 +150,7 @@
                                         src="{{ \App\CentralLogics\Helpers::get_image_helper(
                                             $business_image,'value',
                                             asset('storage/business_image').'/'.$business_image['value'] ?? '',
-                                            asset('//admin/img/aspect-1.png'),
+                                            asset('/assets/admin/img/aspect-1.png'),
                                             'business_image/'
                                         ) }}" data-onerror-image="{{asset('assets/admin/img/aspect-1.png')}}" alt="" class="img__aspect-1 min-w-187px max-w-187px onerror-image">
                                     </div>

@@ -134,13 +134,13 @@
                             <span class="dropdown-header">{{ translate('messages.download_options') }}</span>
                             <a id="export-excel" class="dropdown-item" href="{{route('admin.item.store-item-export', ['type'=>'excel',  'table'=> isset($sub_tab) && ($sub_tab == 'pending-items' || $sub_tab == 'rejected-items') ? 'TempProduct' : null , 'sub_tab'=> $sub_tab ?? null ,'store_id'=>$store->id , request()->getQueryString()])}}">
                                 <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                    src="{{ asset('/admin') }}/svg/components/excel.svg"
+                                    src="{{ asset('assets/admin') }}/svg/components/excel.svg"
                                     alt="Image Description">
                                 {{ translate('messages.excel') }}
                             </a>
                             <a id="export-csv" class="dropdown-item" href="{{route('admin.item.store-item-export', ['type'=>'csv',  'table'=> isset($sub_tab) && ($sub_tab == 'pending-items' || $sub_tab == 'rejected-items') ? 'TempProduct' : null , 'sub_tab'=> $sub_tab ?? null , 'store_id'=>$store->id , request()->getQueryString()])}}">
                                 <img class="avatar avatar-xss avatar-4by3 mr-2"
-                                    src="{{ asset('/admin') }}/svg/components/placeholder-csv-format.svg"
+                                    src="{{ asset('assets/admin') }}/svg/components/placeholder-csv-format.svg"
                                     alt="Image Description">
                                 .{{ translate('messages.csv') }}
                             </a>

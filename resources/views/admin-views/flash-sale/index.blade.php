@@ -75,7 +75,7 @@
                                                 <label class="input-label"
                                                     for="default_title">{{ translate('messages.discount_Bearer') }}
                                                     <span class="form-label-secondary" data-toggle="tooltip" data-placement="right" data-original-title="{{ translate('messages.Define_the_cost_amount_you_want_to_bear_for_this_Flash_Sale.The_total_bear_amount_should_be_100.') }}">
-                                                        <img src="{{asset('/admin/img/info-circle.svg')}}" alt="">
+                                                        <img src="{{asset('assets/admin/img/info-circle.svg')}}" alt="">
                                                     </span>
                                                 </label>
                                             </div>

@@ -49,7 +49,7 @@
                                             src="{{ \App\CentralLogics\Helpers::get_image_helper(
                                                 $bottom_section_banner,'value',
                                                 asset('storage/promotional_banner').'/'.$bottom_section_banner?->value ?? '',
-                                                asset('//admin/img/upload-placeholder.png'),
+                                                asset('assets/admin/img/upload-placeholder.png'),
                                                 'promotional_banner/'
                                             ) }}" data-onerror-image="{{asset('assets/admin/img/upload-placeholder.png')}}" alt="">
                                         </div>
@@ -131,7 +131,7 @@
                                             src="{{ \App\CentralLogics\Helpers::get_image_helper(
                                                 $basic_section_nearby,'value',
                                                 asset('storage/promotional_banner').'/'.$basic_section_nearby?->value ?? '',
-                                                asset('//admin/img/upload-placeholder.png'),
+                                                asset('assets/admin/img/upload-placeholder.png'),
                                                 'promotional_banner/'
                                             ) }}"
 

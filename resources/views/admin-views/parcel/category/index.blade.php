@@ -102,7 +102,7 @@
                             </label>
                             <div class="text-center py-3 my-auto">
                                 <img class="img--120" id="viewer"
-                                    src="{{asset('/admin/img/900x400/img1.jpg')}}"
+                                    src="{{asset('assets/admin/img/900x400/img1.jpg')}}"
                                     alt="image"/>
                             </div>
                             <div class="custom-file">
