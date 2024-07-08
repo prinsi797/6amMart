@@ -4918,4 +4918,9 @@
   'Discount amount can\'t be greater than 100%' => 'Discount amount can t be greater than 100%',
   'default_unit_is_required' => 'Default unit is required',
   'employee_added_successfully' => 'Employee added successfully',
+  'ex_: search_by_name,_email,_or_subject' => 'Ex : search by name, email, or subject',
+  'Latest_ratings' => 'Latest ratings',
+  'Please select store' => 'Please select store',
+  'Step_3' => 'Step 3',
+  'For_a_sub_category_module_id_will_it`s_parents_module_id' => 'For a sub category module id will it`s parents module id',
 );

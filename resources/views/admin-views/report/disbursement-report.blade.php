@@ -26,12 +26,12 @@
         <!-- Reports -->
         <div class="disbursement-report mb-20">
             <div class="__card-3 rebursement-item">
-                <img src="{{asset('/admin/img/report/new/trx1.png')}}" class="icon" alt="report/new">
+                <img src="{{asset('assets/admin/img/report/new/trx1.png')}}" class="icon" alt="report/new">
                 <h3 class="title text-008958">{{\App\CentralLogics\Helpers::format_currency($pending)}}
                 </h3>
                 <h6 class="subtitle">{{ translate('Pending_Disbursements') }}</h6>
                 <div class="info-icon" data-toggle="tooltip" data-placement="top" data-original-title="{{ translate('All_the_pending_disbursement_requests_that_require_admin’s_action_(complete/cancel).') }}">
-                    <img src="{{asset('/admin/img/report/new/info1.png')}}" alt="report/new">
+                    <img src="{{asset('assets/admin/img/report/new/info1.png')}}" alt="report/new">
                 </div>
             </div>
 
